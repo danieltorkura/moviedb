@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Result = ({result}) => {
-    return (
-        <div>
-            <section className="result">
-            <p>{result.title}</p>
-            </section>
-        </div>
-    )
-}
+const Result = ({ result }) => {
+  return (
+    <div>
+      <section className="result">
+        <p>{result.Title}</p>
+      </section>
+    </div>
+  );
+};
 
-export default Result
+export default Result;
